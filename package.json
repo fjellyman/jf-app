@@ -1,0 +1,25 @@
+{
+  "name": "jf-app",
+  "version": "0.1.0",
+  "description": "Main web application for JordanFjellman.com",
+  "main": "src/server/app.js",
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install",
+    "start": "node src/server/app.js",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjellyman/jf-app.git"
+  },
+  "keywords": [
+    "jordanfjellman.com"
+  ],
+  "author": "Jordan Fjellman (jordan.fjellman@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjellyman/jf-app/issues"
+  },
+  "homepage": "https://github.com/fjellyman/jf-app#readme"
+}
